@@ -1,0 +1,14 @@
+n=int(input())
+d={}
+for i in range(n):
+    t=input().split()
+    k=t[0]
+    v=t[1]
+    d[k]=v
+    print(d)
+    x=input()
+    if x in d:
+        print(d[x])
+    else:
+        print("no")
+        
