@@ -1,0 +1,16 @@
+empl={1:['eekshitha','developer',40000,5876598],2:['raj','designer',54000,55689476],3:['teja','analyst',78000,7654832]}
+eno=int(input('enter emp.no:'))
+
+print('empname:',empl[eno][0])
+print('empdesig:',empl[eno][1])
+print('empsal:',empl[eno][2])
+print('pno:',empl[eno][3])
+
+
+output
+
+enter emp.no:3
+empname: teja
+empdesig: analyst
+empsal: 78000
+pno: 7654832
